@@ -213,8 +213,8 @@ void Hormiga::hit(Actor *who, int damage)
 /*
  * La envio al hormiguero
  */
-			set_x(Hm->get_x());
-			set_y(Hm->get_y());
+//			set_x(Hm->get_x());
+//			set_y(Hm->get_y());
 			break;
 		case TEAM_BOLSA_DINERO:
 			break;
@@ -261,11 +261,13 @@ void Hormiga::crear_hormiga(ActorManager *actmgr,int tipo,Hormiguero *hormiguero
 
 	 if (tipo == kRedAnt)
 	 {
+		 if (Hormiga::num_hormigas_rojas > 200) return;
 		 al_set_path_filename(path, "HormigaRoja.png");
 		 hormiga_tmp = new Hormiga(actmgr,hormiguero_tmp,kRedAnt);
 	 }
 	 else
 	 {
+		 if (Hormiga::num_hormigas_verdes > 200) return;
 		 al_set_path_filename(path, "HormigaVerde.png");
 		 hormiga_tmp = new Hormiga(actmgr,hormiguero_tmp,kGreenAnt);
 	 }

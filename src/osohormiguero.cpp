@@ -151,7 +151,7 @@ void OsoHormiguero::hit(Actor *who, int damage)
 			break;
 		case TEAM_BOLSA_DINERO:
 			al_play_sample(sonido_comer_bolsa, 3.0, 0.0,1.0,ALLEGRO_PLAYMODE_ONCE,NULL);
-			if (sc_vidas->get_score() < 3) sc_vidas->suma(1);
+			if (sc_vidas->get_score() < 18) sc_vidas->suma(1);
 			sc->suma(30);
 			break;
 		default:

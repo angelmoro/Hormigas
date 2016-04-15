@@ -2,14 +2,29 @@
 	"records" : 
 	[
 		{
-			"jlevel" : 2,
-			"jnombre" : "QQQQ",
-			"jpuntuacion" : 10
+			"jlevel" : 16,
+			"jnombre" : "GELU",
+			"jpuntuacion" : 1640
 		},
 		{
-			"jlevel" : 0,
-			"jnombre" : "",
-			"jpuntuacion" : 0
+			"jlevel" : 16,
+			"jnombre" : "GELU",
+			"jpuntuacion" : 1420
+		},
+		{
+			"jlevel" : 13,
+			"jnombre" : "GELU",
+			"jpuntuacion" : 1300
+		},
+		{
+			"jlevel" : 12,
+			"jnombre" : "GELU",
+			"jpuntuacion" : 4040
+		},
+		{
+			"jlevel" : 11,
+			"jnombre" : "ANGEL",
+			"jpuntuacion" : 900
 		}
 	]
 }

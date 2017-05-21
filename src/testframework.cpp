@@ -43,7 +43,7 @@
 
 using namespace tinyxml2;
 
-
+void *__gxx_personality_v0; //no se para que sirve algo del compilador de c++
 
 void TestFrameWork::main()
 {

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="16">
+ <tileset firstgid="1" name="object- layer" tilewidth="32" tileheight="32" tilecount="84" columns="14">
+  <image source="object- layer.png" width="477" height="219"/>
+ </tileset>
+ <tileset firstgid="85" name="ground_tiles" tilewidth="32" tileheight="32" tilecount="441" columns="21">
+  <image source="ground_tiles.png" width="672" height="701"/>
+  <terraintypes>
+   <terrain name="pradera" tile="43"/>
+   <terrain name="tierra" tile="106"/>
+   <terrain name="agua" tile="191"/>
+   <terrain name="piedra" tile="67"/>
+   <terrain name="mancha tierra" tile="34"/>
+   <terrain name="mancha gris" tile="99"/>
+   <terrain name="piedra marron" tile="274"/>
+  </terraintypes>
+  <tile id="12" terrain="1,1,1,4"/>
+  <tile id="13" terrain="1,1,4,4"/>
+  <tile id="14" terrain="1,1,4,1"/>
+  <tile id="15" terrain="4,4,4,1"/>
+  <tile id="16" terrain="4,4,1,4"/>
+  <tile id="33" terrain="1,4,1,4"/>
+  <tile id="34" terrain="4,4,4,4"/>
+  <tile id="35" terrain="4,1,4,1"/>
+  <tile id="36" terrain="4,1,4,4"/>
+  <tile id="37" terrain="1,4,4,4"/>
+  <tile id="43" terrain="0,0,0,0"/>
+  <tile id="44" terrain="0,0,0,0"/>
+  <tile id="54" terrain="1,4,1,1"/>
+  <tile id="55" terrain="4,4,1,1"/>
+  <tile id="56" terrain="4,1,1,1"/>
+  <tile id="64" terrain="0,0,0,0"/>
+  <tile id="65" terrain="0,0,0,0"/>
+  <tile id="67" terrain="3,3,3,3"/>
+  <tile id="72" terrain="0,0,0,1"/>
+  <tile id="73" terrain="0,0,1,0"/>
+  <tile id="90" terrain="0,0,0,1"/>
+  <tile id="91" terrain="0,0,1,1"/>
+  <tile id="92" terrain="0,0,1,0"/>
+  <tile id="93" terrain="0,1,0,0"/>
+  <tile id="94" terrain="1,0,0,0"/>
+  <tile id="96" terrain="1,1,1,5"/>
+  <tile id="97" terrain="1,1,5,5"/>
+  <tile id="98" terrain="1,1,5,1"/>
+  <tile id="106" terrain="1,1,1,1"/>
+  <tile id="107" terrain="1,1,1,1"/>
+  <tile id="108" terrain="1,1,1,1"/>
+  <tile id="111" terrain="0,1,0,1"/>
+  <tile id="113" terrain="1,0,1,0"/>
+  <tile id="114" terrain="1,1,1,0"/>
+  <tile id="115" terrain="1,1,0,1"/>
+  <tile id="117" terrain="1,5,1,5"/>
+  <tile id="119" terrain="5,1,5,1"/>
+  <tile id="120" terrain="1,5,5,1"/>
+  <tile id="121" terrain="5,1,1,5"/>
+  <tile id="127" terrain="1,1,1,1"/>
+  <tile id="128" terrain="1,1,1,1"/>
+  <tile id="129" terrain="1,1,1,1"/>
+  <tile id="132" terrain="0,1,0,0"/>
+  <tile id="133" terrain="1,1,0,0"/>
+  <tile id="134" terrain="1,0,0,0"/>
+  <tile id="135" terrain="1,0,1,1"/>
+  <tile id="136" terrain="0,1,1,1"/>
+  <tile id="137" terrain=",,2,"/>
+  <tile id="138" terrain="1,5,1,1"/>
+  <tile id="139" terrain="5,5,1,1"/>
+  <tile id="140" terrain="5,1,1,1"/>
+  <tile id="141" terrain="5,1,1,5"/>
+  <tile id="142" terrain="1,5,5,1"/>
+  <tile id="148" terrain="1,1,1,1"/>
+  <tile id="149" terrain="1,1,1,1"/>
+  <tile id="150" terrain="1,1,1,1"/>
+  <tile id="158" terrain="2,,,"/>
+  <tile id="174" terrain="0,0,0,2"/>
+  <tile id="175" terrain="0,0,2,2"/>
+  <tile id="176" terrain="0,0,2,0"/>
+  <tile id="177" terrain="0,0,0,0"/>
+  <tile id="190" terrain="2,2,2,2"/>
+  <tile id="191" terrain="2,2,2,2"/>
+  <tile id="192" terrain=",,,3"/>
+  <tile id="193" terrain=",,3,3"/>
+  <tile id="194" terrain=",,3,"/>
+  <tile id="195" terrain="0,2,0,2"/>
+  <tile id="196" terrain="2,2,2,2"/>
+  <tile id="197" terrain="2,0,2,0"/>
+  <tile id="198" terrain="0,2,2,2"/>
+  <tile id="199" terrain="2,0,2,2"/>
+  <tile id="211" terrain="2,2,2,2"/>
+  <tile id="212" terrain="2,2,2,2"/>
+  <tile id="213" terrain=",3,,3"/>
+  <tile id="214" terrain="2,2,2,2"/>
+  <tile id="215" terrain="3,,3,"/>
+  <tile id="216" terrain="0,2,0,0"/>
+  <tile id="217" terrain="2,2,0,0"/>
+  <tile id="218" terrain="2,0,0,0"/>
+  <tile id="219" terrain="2,2,0,2"/>
+  <tile id="220" terrain="2,2,2,0"/>
+  <tile id="234" terrain=",3,,"/>
+  <tile id="235" terrain="3,3,,"/>
+  <tile id="236" terrain="3,,,"/>
+  <tile id="258" terrain="0,0,0,0"/>
+  <tile id="259" terrain="0,0,6,6"/>
+  <tile id="260" terrain="0,0,6,0"/>
+  <tile id="262" terrain="6,0,6,0"/>
+  <tile id="274" terrain="6,6,6,6"/>
+  <tile id="275" terrain="6,6,6,6"/>
+  <tile id="277" terrain="6,6,6,0"/>
+  <tile id="278" terrain="0,6,0,6"/>
+  <tile id="279" terrain="0,6,0,6"/>
+  <tile id="280" terrain="6,6,6,6"/>
+  <tile id="281" terrain="6,6,6,0"/>
+  <tile id="282" terrain="6,6,6,0"/>
+  <tile id="283" terrain="6,6,0,6"/>
+  <tile id="295" terrain="6,6,6,6"/>
+  <tile id="296" terrain="6,6,6,6"/>
+  <tile id="298" terrain="6,0,6,6"/>
+  <tile id="299" terrain="0,6,6,6"/>
+  <tile id="300" terrain="0,6,0,0"/>
+  <tile id="301" terrain="6,6,0,0"/>
+  <tile id="302" terrain="6,0,0,0"/>
+  <tile id="303" terrain="6,0,6,6"/>
+  <tile id="304" terrain="0,6,6,6"/>
+ </tileset>
+ <tileset firstgid="526" name="Extra_Unfinished4" tilewidth="32" tileheight="32" tilecount="88" columns="11">
+  <image source="Extra_Unfinished4.png" width="360" height="266"/>
+ </tileset>
+ <tileset firstgid="614" name="Cliff_tileset" tilewidth="32" tileheight="32" tilecount="240" columns="15">
+  <image source="Cliff_tileset.png" width="503" height="518"/>
+ </tileset>
+ <tileset firstgid="854" name="graphics-tiles-waterflow" tilewidth="32" tileheight="32" tilecount="81" columns="9">
+  <image source="graphics-tiles-waterflow.png" width="319" height="293"/>
+ </tileset>
+ <tileset firstgid="935" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="2" columns="2">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="colisionable" value="true"/>
+    <property name="objeto" value="piedra"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="colisionable" value="true"/>
+    <property name="objeto" value="agua"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="20" height="20">
+  <data encoding="csv">
+128,129,128,129,128,129,128,129,128,129,280,281,296,275,275,297,282,129,128,129,
+149,150,149,150,149,150,149,150,149,150,280,296,296,299,275,276,282,150,149,150,
+128,129,128,129,128,129,128,129,128,129,301,304,296,296,297,276,282,129,128,129,
+260,260,260,260,261,150,149,150,149,150,149,301,302,304,299,305,303,150,149,150,
+281,296,275,297,282,129,128,129,128,129,128,129,128,301,302,303,128,129,128,129,
+276,276,275,297,284,261,149,259,260,261,149,150,149,150,149,150,149,150,149,150,
+281,276,299,276,276,284,260,283,281,282,128,129,128,129,128,129,128,129,128,129,
+302,302,302,302,304,281,276,275,305,303,149,150,149,150,149,150,149,259,260,260,
+128,129,128,129,301,302,302,302,303,129,128,129,128,129,128,129,128,280,296,297,
+149,150,149,150,149,150,149,150,149,150,149,150,149,150,149,150,149,280,276,305,
+128,129,128,129,128,129,128,129,128,129,128,129,128,129,128,129,128,301,302,303,
+149,150,149,150,149,150,149,150,259,260,261,150,149,150,149,150,149,150,149,150,
+128,129,128,129,128,129,259,260,283,296,284,261,128,129,128,129,128,129,128,129,
+149,150,149,150,149,259,283,275,275,297,296,284,260,260,261,150,149,150,149,150,
+128,129,128,259,260,283,299,296,296,299,276,275,281,296,284,261,128,129,128,129,
+149,150,149,280,296,297,275,296,276,299,276,299,281,275,297,284,261,150,149,150,
+128,129,259,283,276,299,296,296,296,296,276,296,281,297,299,297,282,129,128,129,
+149,150,280,299,281,275,299,296,297,296,281,299,297,281,297,281,282,150,149,150,
+128,129,301,302,302,302,302,302,302,302,302,302,302,302,302,302,303,129,128,129,
+149,150,149,150,149,150,149,150,149,150,149,150,149,150,149,150,149,150,149,150
+</data>
+ </layer>
+ <layer name="meta tiles" width="20" height="20" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,936,936,936,936,936,936,936,0,0,0,
+0,0,0,0,0,0,0,0,0,0,936,936,936,936,936,936,936,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,936,936,936,936,936,936,0,0,0,
+936,936,936,936,0,0,0,0,0,0,0,0,936,936,936,936,0,0,0,0,
+936,936,936,936,0,0,0,0,0,0,0,0,0,0,936,0,0,0,0,0,
+936,936,936,936,936,0,0,0,936,0,0,0,0,0,0,0,0,0,0,0,
+936,936,936,936,936,936,936,936,936,936,0,0,0,0,0,0,0,0,0,0,
+936,936,936,936,936,936,936,936,936,0,0,0,0,0,0,0,0,0,936,936,
+0,0,0,0,0,936,936,936,0,0,0,0,0,0,0,0,0,936,936,936,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,936,936,936,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,936,0,
+0,0,0,0,0,0,0,0,0,936,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,936,936,936,936,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,936,936,936,936,936,936,936,936,0,0,0,0,0,0,
+0,0,0,0,936,936,936,936,936,936,936,936,936,936,936,0,0,0,0,0,
+0,0,0,936,936,936,936,936,936,936,936,936,936,936,936,936,0,0,0,0,
+0,0,0,936,936,936,936,936,936,936,936,936,936,936,936,936,0,0,0,0,
+0,0,936,936,936,936,936,936,936,936,936,936,936,936,936,936,936,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

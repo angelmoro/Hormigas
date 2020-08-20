@@ -6,6 +6,8 @@
  */
 
 #include <stdio.h>
+
+#include "bool.h"
 #include "allegro.h"
 #include "actor.h"
 #include "mask.h"

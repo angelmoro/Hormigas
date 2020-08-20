@@ -11,6 +11,8 @@
 #include <allegro5/allegro_ttf.h>
 #include <allegro5/allegro_native_dialog.h>
 #include <math.h>
+
+#include "bool.h"
 #include "level.h"
 #include "leveloso.h"
 #include "hormiga.h"

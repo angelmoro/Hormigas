@@ -8,6 +8,8 @@
 #include <stdio.h>
 #include <iostream>
 #include <string>
+
+#include "bool.h"
 #include "level.h"
 #include "actormanager.h"
 #include "game.h"

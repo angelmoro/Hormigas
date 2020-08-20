@@ -5,7 +5,7 @@
  *      Author: Usuario
  */
 
-
+#include "bool.h"
 #include "tileset.h"
 #include "tileproperty.h"
 #include "tileimage.h"

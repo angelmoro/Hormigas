@@ -8,6 +8,8 @@
 #include <vector>
 #include <allegro.h>
 #include <stdio.h>
+
+#include "bool.h"
 #include "peripheral.h"
 #include "controlmanager.h"
 

@@ -7,6 +7,8 @@
 
 #include <allegro.h>
 #include <string>
+
+#include "bool.h"
 #include "teclado.h"
 #include "peripheral.h"
 #include <stdio.h>

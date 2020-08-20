@@ -8,6 +8,8 @@
 #include <stdio.h>
 #include <allegro.h>
 #include <allegro5/allegro_native_dialog.h>
+
+#include "bool.h"
 #include "osohormiguero.h"
 #include "game.h"
 #include "sprite.h"

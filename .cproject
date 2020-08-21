@@ -148,6 +148,24 @@
                                     <listOptionValue builtIn="false" value="Winmm"/>
                                     									
                                     <listOptionValue builtIn="false" value="Ole32"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="webp"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="gdiplus"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="opusfile"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="opus"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="vorbisfile"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="vorbis"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="ogg"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="dumb"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="FLAC"/>
                                     								
                                 </option>
                                 								

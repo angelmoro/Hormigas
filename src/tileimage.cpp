@@ -136,7 +136,10 @@ void TileImage::parse()
 void TileImage::cargar_imagen()
 {
 	ALLEGRO_PATH   				*path;
-	int 						R,G,B,i;
+	int 						R = 0;
+	int 						G = 0;
+	int							B = 0;
+	int							i;
 	std::string::iterator		it; // The string iterator.
 	std::string					string_tmp;
 

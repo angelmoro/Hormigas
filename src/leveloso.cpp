@@ -225,7 +225,7 @@ LevelOso* LevelOso::crear_level(ActorManager *actmgr,LevelManager *levmgr, strin
 		                     int c,int a,int v,int hv,int hr, int pos_x,int pos_y,
 							 int rt, int bt, int rtd, int btd)
 {
-	  ALLEGRO_BITMAP 	*bmp;
+//	  ALLEGRO_BITMAP 	*bmp;
 	  LevelOso		 	*level_oso_tmp;
 	  LevelGraphic   	*lg;
 	  ALLEGRO_PATH   	*path;
@@ -409,7 +409,7 @@ void LevelOso::tick()
 	Actor actor_tmp;
 	list<Actor*>::iterator actors_iter_tmp;
 	Marca *marca_tmp;
-	int puntuacion;
+	int puntuacion = 0;
 
 	switch (estado) {
 

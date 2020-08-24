@@ -292,8 +292,8 @@ void OsoHormiguero::aniquilacion()
 void OsoHormiguero::check_salud()
 {
 	list<Actor*>::iterator 	actors_iter_tmp;
-	Marca 					* marca_tmp;
-	int 					nivel_alcanzado;
+//	Marca 					* marca_tmp;
+//	int 					nivel_alcanzado;
 
 
 	/*
@@ -334,6 +334,10 @@ void OsoHormiguero::check_salud()
 			 * y lo destruimos
 			 */
 
+			/*
+			 * Comento lo de nivel alcanzado para quitar un warning. Pude que antes se
+			 * utilizara y ahora no
+			 */
 			for (actors_iter_tmp=am->get_begin_iterator();
 							 actors_iter_tmp!=am->get_end_iterator();
 				 actors_iter_tmp++)
@@ -341,7 +345,7 @@ void OsoHormiguero::check_salud()
 				if(((*actors_iter_tmp)->get_team() == TEAM_LEVEL) &&
 				   ((*actors_iter_tmp)->get_estado() == CREADO))	{
 
-					nivel_alcanzado = (*actors_iter_tmp)->get_level();
+//					nivel_alcanzado = (*actors_iter_tmp)->get_level();
 					((Level*)(*actors_iter_tmp))->set_last_level(TRUE);
 					((Level*)(*actors_iter_tmp))->destroy();
 

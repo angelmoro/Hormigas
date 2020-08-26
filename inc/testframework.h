@@ -18,6 +18,14 @@
 #define kRedAntIniciales 	3
 #define kGreenAntIniciales 	30
 
+/*
+ * Definimos el rol del ejecutable en una arquitectura stand alone o cliente-servidor
+ */
+
+#define STANDALONE	0
+#define CLIENT		1
+#define SERVER		2
+
 
 class Game;
 

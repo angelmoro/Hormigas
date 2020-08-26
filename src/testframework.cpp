@@ -42,6 +42,9 @@
 
 #include "tinyxml2.h"
 
+#include "clientedecomunicaciones.h"
+#include "servidordecomunicaciones.h"
+
 using namespace tinyxml2;
 
 
@@ -317,13 +320,51 @@ void TestFrameWork::main()
 	}
 
 }
-int main()
+int main(int argc, char** argv)
 {
+
+
+	if (argc > 1) {
+		switch (atoi(argv[1]))
+		{
+			case STANDALONE :
+			{
+				break;
+			}
+			case CLIENT :
+			{
+				ClienteDeComunicaciones endpoint;
+				endpoint.connect(argv[2]);
+				break;
+			}
+			case SERVER :
+			{
+				ServidorDeComunicaciones endpoint;
+				endpoint.start();
+				break;
+			}
+			default:
+			{
+				break;
+			}
+		}
+	}
+
+/*
+ * Comento todo lo del juego, para probar las comunicaciones.
+ * abra que lanzar luego las comunicaciones en un thread y sincroniar con el thread principal del juego
+ * emitiendo eventos de usuario allegro para todos los mensajes entrantes que se reciban.
+ * ¿para enviar mensajes desde el juego puedo compartir el enpoint entre threads o lo tengo
+ * enviar al thread de comunicaciones a traves de una cola?
+ */
+/*
 	TestFrameWork game;
 	game.set_name("El oso hormiguero se va de fiesta");
 	game.set_ancho(640);
 	game.set_alto(640);
 	game.init();
+*/
+
 }
 
 
